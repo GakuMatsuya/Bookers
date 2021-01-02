@@ -11,13 +11,11 @@
     <% @books.each do |book| %>
       <tr>
         <td><%= book.title%></td>
-      </tr>
-      <tr>
         <td><%= book.body %></td>
+        <td>show</td>
+        <td>eidt</td>
+        <td>destroy</td>
       </tr>
-      <td>show</td>
-      <td>edit</td>
-      <td>destroy</td>
     <% end %>  
   </tbody>
   
